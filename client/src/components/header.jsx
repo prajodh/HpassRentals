@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = (props) => {
   return (
-    <header id="header" className="w-full bg-no-repeat bg-center bg-cover" style={{ backgroundImage: "url(../../assets/intro3.jpg)", backgroundColor: '#e5e5e5' }}>
+    <header id="header" className="w-full bg-no-repeat bg-center bg-cover" style={{ backgroundImage: "https://unsplash.com/photos/the-dashboard-of-a-car-with-a-view-of-the-desert-LAdcnvLC8SQ", backgroundColor: '#e5e5e5' }}>
       <div className="bg-black bg-opacity-20">
         <div className="container mx-auto">
           <div className="flex justify-center">
