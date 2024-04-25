@@ -1,8 +1,9 @@
 import React from "react";
+import backgroud from "../../assets/intro3.jpg"
 
 export const Header = (props) => {
   return (
-    <header id="header" className="w-full bg-no-repeat bg-center bg-cover" style={{ backgroundImage: "https://drive.google.com/file/d/1aVu0TxZ8hd7_eiyxopyXwqjdeG-FXA-E/preview", backgroundColor: '#e5e5e5' }}>
+    <header id="header" className="w-full bg-no-repeat bg-center bg-cover" style={{ backgroundImage: "url(../../assets/intro3.jpg)", backgroundColor: '#000000' }}>
       <div className="bg-black bg-opacity-20">
         <div className="container mx-auto">
           <div className="flex justify-center">
